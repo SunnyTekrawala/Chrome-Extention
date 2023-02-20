@@ -1,0 +1,88 @@
+:root {
+    --dark-blue2: rgb(30, 30, 208);
+    --dark-blue: rgb(0, 0, 137);
+    --blue: rgb(185, 255, 232);
+}
+
+body {
+    min-width: 400px;
+    background-color: var(--blue);
+    border: solid 2px var(--dark-blue);
+}
+
+.btn-group {
+    text-align: center;
+}
+
+.btn {
+    border-radius: 20px;
+    color: white;
+    border: solid 1px black;
+    font-size: 20px;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+    background-color: var(--dark-blue);
+    transition: ease-in-out 0.2s;
+    box-shadow: 1px 1px 1px black;
+}
+
+.btn:hover {
+    background-color: var(--dark-blue2);
+}
+
+.input-field:focus {
+    background-color: rgb(191, 224, 253);
+}
+
+.input-field {
+    margin: 20px;
+    height: 30px;
+    width: calc(100% - 40px);
+    border-color: var(--dark-blue);
+    box-sizing: border-box;
+}
+
+.list {
+    margin-top: 20px;
+    padding: 0;
+    list-style: none;
+}
+
+.list li {
+    margin-top: 5px;
+}
+
+.list a {
+    font-weight: 700;
+    color: var(--dark-blue);
+}
+
+.header {
+    color: var(--dark-blue);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 1px 1px 1px black;
+}
+
+.footer {
+    font-weight: 600;
+    font-family: "Courier New", Courier, monospace;
+    color: var(--dark-blue);
+    text-align: end;
+    margin-right: 5px;
+    font-style: italic;
+}
+
+.seperator {
+    background-color: var(--dark-blue);
+    height: 3px;
+}
+
+.but {
+    vertical-align: middle;
+    margin-left: 10px;
+}
